@@ -1,0 +1,72 @@
+body {
+padding: 0px;
+margin: 0px;
+display: flex;
+flex-direction: column;
+}
+
+.header {
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    Flex: 0 1 auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight:600;
+    justify-content: center;
+    display: flex;
+    flex: 1 1 auto;    
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.h-lower {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 0 1 300px;
+    flex-wrap: wrap;
+}
+
+.image {
+    padding: 40px;
+    margin: 30px;
+    background-color: grey;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border: #3882f6;
+    border-radius: 5px;
+}
