@@ -33,16 +33,25 @@ flex-direction: column;
 
 .h-lower {
     background-color: #1F2937;
+    padding: 40px;
     color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    flex: 0 1 auto;
+}
+
+.picbox {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 1 auto 
 }
 
 .message {
@@ -55,18 +64,124 @@ flex-direction: column;
 }
 
 .image {
-    padding: 40px;
-    margin: 30px;
+    padding: 60px;
     background-color: grey;
     display: flex;
-    flex-direction: center;
+    flex-direction: flex-start;
     align-items: center;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
 }
 
-button {
+.button1 {
     background-color: #3882f6;
     color: white;
     border: #3882f6;
     border-radius: 5px;
+}
+
+.info {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 50px;
+
+
+}
+
+.boxes {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+    gap: 20px;
+    flex: 0 1 auto;
+}
+.boxcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  flex: 0 1 100px;
+  flex-wrap: wrap;
+}
+
+.box {
+    border: solid;
+    border-color: #3882f6;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    flex: 0 1 100px;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 12px;
+}
+
+.header-3 {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   padding: 50px;
+   background-color: #E5E7EB;
+
+
+}
+
+.inspire {
+    text-align: center;
+    margin:0px;
+    font-size: 36px;
+    font-weight: 50px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote {
+    text-align:end;
+    font-weight: 50px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.header-4 {
+    padding: 100px;
+}
+
+.call {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+}
+
+.calling {
+
+}
+
+.button2 {
+    background-color: #3882f6;
+    border-style: solid;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.copyright {
+    display: flex;
+    padding: 30px; 
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: #1F2937;
+    color: white;
+
 }
